@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="images/logo1.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>NoblePet | Yakında Hizmetinizde</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Acme', sans-serif;
+            padding: 4%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .left {
+            margin-top: 20px;
+        }
+
+        .logo {
+            border-radius: 100px;
+            border: 5px solid white;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        h1 {
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .right {
+            padding-left: 20px;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .right .contact a {
+            text-decoration: none;
+            font-size: 25px;
+            color: #fff;
+            margin-top: 100px;
+        }
+
+        .right .contact a:hover {
+            opacity: 0.7;
+        }
+
+        .sym {
+            color: #fff;
+            width: 30px;
+            padding-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .left {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="logo" src="images/logo1.svg" alt="NoblePet Logo">
+        </div>
+        <div class="right">
+            <h1>Yakında Yep Yeni Ürünleri İle Hizmetinizde...</h1>
+            <div class="contact">
+                <div class="insta"><a href="https://www.instagram.com/noblepett/"><img class="sym" src="images/instagram.svg">@noblepett</a></div>
+                <div class="wp"><a href="https://wa.me/905385468200"><img class="sym" src="images/whatsapp.svg">+90 538 546 82 00</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
